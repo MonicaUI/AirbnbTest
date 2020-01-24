@@ -8,4 +8,4 @@ npm install and also yarn add expo
 
 2) It may needed few more installations like CalenderPicker, react-navigation,etc. That may also be added using yarn add 
 
-![](Demo Images/Calendar.jpeg)
+![](Demo%20Images/Calendar.jpeg)
