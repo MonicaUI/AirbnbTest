@@ -8,4 +8,4 @@ npm install and also yarn add expo
 
 2) It may needed few more installations like CalenderPicker, react-navigation,etc. That may also be added using yarn add 
 
-![picture](D:\react-native\Calendar.jpeg)
+![picture](https://github.com/MonicaUI/AirbnbTest/tree/master/Demo%20Images/Calendar.jpeg)
