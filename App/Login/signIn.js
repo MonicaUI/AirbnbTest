@@ -111,7 +111,7 @@ export default class SignIn extends React.Component {
               <TextInput
                 style={styles.input}
                 underlineColorAndroid="transparent"
-                placeholder="Try with any Events"
+                placeholder="Try with any places"
                 placeholderTextColor="#808080"
                 autoCapitalize="none"
                 autoCorrect={false}
@@ -221,7 +221,7 @@ export default class SignIn extends React.Component {
                     source={require("../../assets/hotel.jpg")}
                   />
                 </TouchableOpacity>
-                <Text style={styles.listText}> Bands </Text>
+                <Text style={styles.listText}> Stays </Text>
               </View>
 
               <View style={styles.square}>
@@ -240,7 +240,7 @@ export default class SignIn extends React.Component {
                     }}
                     source={require("../../assets/hotel.png")}
                   />
-                  <Text style={styles.listText}> Singers </Text>
+                  <Text style={styles.listText}> Experiences </Text>
                 </TouchableOpacity>
               </View>
               <View style={styles.square}>
@@ -258,9 +258,10 @@ export default class SignIn extends React.Component {
               </View>
             </ScrollView>
             <View>
-              <Text style={styles.titleText}> Introducing Events </Text>
+              <Text style={styles.titleText}> Places to Stay </Text>
               <Text style={{ margin: 10, fontSize: 16 }}>
-                Select your events on your own interest
+                Qualified places to stay and designed according to customer
+                satisfaction
               </Text>
               <ScrollView
                 horizontal={true}
