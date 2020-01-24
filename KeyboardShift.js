@@ -28,6 +28,7 @@ export default class KeyboardShift extends Component {
   }
 
   componentWillUnmount() {
+	  //Moni Testing
     this.keyboardDidShowSub.remove();
     this.keyboardDidHideSub.remove();
   }

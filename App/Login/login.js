@@ -41,7 +41,7 @@ export default class Home extends React.Component {
         };
         AsyncStorage.setItem("mylogin", JSON.stringify(mylogin));
         alert("Data saved successfull");
-        this.props.navigation.navigate("Profile");
+        this.props.navigation.navigate("SignIn");
       }
     }
   };
